@@ -1,0 +1,169 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+a:link{text-decoration: none;color: black;}
+a:visited{text-decoration: none;color: black;}
+a:active{text-decoration: none;color: black;}
+a:hover{text-decoration: none;color: black;}
+
+
+@font-face {
+    src : url("./TESLA.ttf"); 
+    font-family: "te";
+}
+
+@font-face {
+    src : url("https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Book_Web.woff2"); 
+    font-family: "tess";
+}
+.color{
+    color: black;
+}
+#logo{
+    width: 10%;
+    height: 30px;
+   font-family: 'te';
+   font-size: 20px;
+   float: left;
+   padding: 20px 0 0 60px;
+   background-color: white;
+ 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.codepen {
+  display: flex;
+  font-family: 'tess';
+ 
+  align-items: flex-start;
+  color: #000;
+  justify-content: center;
+  width: 100%;
+}
+
+.bg {
+  position: absolute;
+  left: -25vw;
+  top: -50vw;
+  width: 150vw;
+  height: 650vw;
+ 
+  background-size: cover;
+  z-index: -1;
+  -webkit-filter: blur(120px);
+  filter: blur(120px);
+}
+
+span {
+  position: sticky;
+  top: calc(50% - 50px);
+  height: 100px;
+  display: inline-flex;
+  align-items: center;
+  mix-blend-mode: overlay;
+  
+  margin-left: 2px;
+  margin-right: 2px;
+ 
+}
+
+.c1{
+    position: sticky;
+    top: calc(50% - 50px);
+    height: 0px;
+    display: inline-flex;
+    align-items: center;
+    mix-blend-mode: overlay;
+    font-family: "te", sans-serif;
+    margin-left: 100px;
+    margin-right: 2px;
+    font-size: 30px;
+    font-weight: bold;
+    color: blueviolet;
+}
+.c2 {
+    font-size: 30px;
+  margin-top: 100vw;
+}
+
+.c3 {
+    height: 0px;
+    font-size: 30px;
+  margin-top: 200vw;
+}
+
+.c4 {
+    
+    font-size: 30px;
+  margin-top: 300vw;
+}
+
+.c5 {
+    height: 0px;
+    font-size: 30px;
+  margin-top: 400vw;
+}
+
+.c6 {
+    font-size: 40px;
+  margin-top: 500vw;
+}
+
+.c7 {
+    height: 0px;
+    font-size: 25px;
+  margin-top: 500vw;
+}
+
+.c8 {
+    font-size: 40px;
+  margin-top: 600vw;
+}
+.c9 {
+    height: 0px;
+    font-size: 25px;
+  margin-top: 700vw;
+}
+.c10 {
+    font-size: 40px;
+  margin-top: 800vw;
+}
+.c11 {
+    font-size: 25px;
+  margin-top: 900vw;
+}
+
+.size{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(56, 108, 249);
+    font-size: 25px;
+}
+.size2{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(249, 107, 56);
+    font-size: 20px;
+}
+
+.scroll {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  pointer-events: none;
+}
+

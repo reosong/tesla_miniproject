@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+  <link rel="stylesheet" href="../css/member.css">
+
+</head>
+
+
+<body>
+    <form action="http://localhost:8070/pro1/mSignUp" method="post">
+    <div id="div_login">
+        <a href="../index.html"><div id="div_login2"> <b>T E S L A</b> </div></a>
+    
+        
+        <div id="div_id"> 
+            <ul class="ul_left">
+                <li >아이디</li>
+                <li class="li_margin"><input type="text" name="m_name" id="input_id"  "></li>
+            </ul>
+        </div>
+        <br>
+        <div id="div_password"> 
+            <ul class="ul_left">
+                <li> 비밀번호</li>
+                <li class="li_margin"><input type="password" name="m_password" id="input_password" ></li>
+                <li><input type="password" id="input_password" placeholder="비밀번호 확인 "></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="ul_left">
+                <li>이메일</li>
+                <li><input type="email" name="m_email" id="input_email"></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="ul_left">
+                <li> <input type="checkbox" name="m_check1"> 개인정보 수집 이용동의(필수) </li>
+                <li> <input type="checkbox" name="m_check2"> 테슬라코리아 이용약관(필수) </li>
+         
+            </ul>
+        </div>
+      
+        <div>
+            <input type="submit" id="input_submit" value="회원 가입">
+        </div>
+
+
+
+
+
+    </div>
+    </form>
+    
+</body>
+</html>

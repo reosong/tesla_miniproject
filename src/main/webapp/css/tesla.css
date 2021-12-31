@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#model_y{
+    width: 100%;
+    height: 100vh;
+   background-image:url(../img/model_y.png) ;
+   background-size: 100% 100vh;
+   
+   
+}
+@font-face {
+    src : url("./TESLA.ttf"); 
+    font-family: "te";
+}
+@font-face {
+    src : url("https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Book_Web.woff2"); 
+    font-family: "tess";
+    
+}
+#menu{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+   
+
+}
+#logo{
+    width: 15%;
+    height: 50px;
+   font-family: 'te';
+   font-size: 20px;
+   float: left;
+   padding: 20px 0 0 20px;
+ 
+}
+#menu_name{
+    margin-left: 150px;
+    width: 55%;
+    height: 60px;
+    float:left;
+    font-style:initial;
+    font-weight: 10px;
+    font-family: 'tess';
+   
+}
+#menu_name>ul{
+list-style: none;
+
+}
+#menu_name li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 25px;
+    
+}
+#menu_shop{
+    width:25%;
+    height: 50px;
+    float: right;
+  
+    
+}
+#menu_shop>ul{
+    list-style: none;
+   
+    }
+.menu_shop_li{
+        display: inline-block;
+        font-weight: bold;
+        padding-top: 20px;
+        margin-left: 20px;
+        font-size: 20px;
+       
+    }
+.clear{
+    clear: both;
+}
+
+#model_3{
+    width: 100%;
+    height: 100vh;
+   background-image:url(../img/model_3.png) ;
+   background-size: 100% 100vh;
+
+}
+
+#model_x{
+    width: 100%;
+    height: 100vh;
+   background-image:url(../img/model_x.png) ;
+   background-size: 100% 100vh;
+    
+}
+
+#model_s{
+    width: 100%;
+    height: 100vh;
+   background-image:url(../img/model_s.png) ;
+   background-size: 100% 100vh;
+}
+.session{font-family: "tess";}
+
+.title{
+   font-size: 50px;
+   padding-top: 10%;
+   padding-left: 43%;
+   font-weight: bold;
+}
+.navBox { display: flex; justify-content: space-between;
+     align-items: center; font-weight: bold; font-family: "NEXON Lv2 Gothic Bold"; 
+     font-size: 1.5em; margin: 5px; 
+    }
+
+
+.iconBtn { width: 35px; cursor: pointer;    display: inline-block;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;}
+ .menuWrap.on { right: 0; } 
+ .menuWrap { position: fixed; top: 0; right: -300px; z-index: 400; width: 300px; height: 100%; 
+padding: 50px 20px; box-sizing: border-box; transition: right 0.3s ease-in-out; background-color: #ffffff; } 
+ #menuBtn { width: 35px; z-index: 401; transition: all 0.3s ease-in-out; cursor: pointer; } 
+ #dimmed { position: fixed; top: 0; left: 0; z-index: 300; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); } 
+ .btnRotate { transform: rotate(-90deg); transition: all 0.3s ease-in-out; }
+.menuList{
+    list-style: none;
+}
+ .listStyle{
+   font-size: 20px;
+   margin-top: 30px;
+}
+.button1{
+    padding: 30% 20% 15% 32%;
+}
+.btn1{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: rgb(85, 84, 84);
+    color: white;
+
+}
+.btn2{
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+#close-menu {
+    border: 1px solid;
+    border-radius: 20px;
+    color: #333;
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    margin: 15px 20px 15px auto;
+    padding: 4px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 20px;
+  }
+  
+  
+  @media only screen and (max-width: 1300px){
+    #menu_name{
+        visibility: hidden;
+    }
+  
+    #logo{
+        width: 30%;
+    }
+    #menu_shop{
+        visibility: hidden;
+    }
+
+    .title_sub{
+        width: 100%;
+   margin-top: 35%;
+   margin-left: 20%;
+    }
+    .y3_text{
+        padding-top: 50%;
+        padding-left: 10%;
+    }
+    .y4_text{
+        padding-top: 45%;
+        padding-left: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 1100px){
+    #menu_name{
+        visibility: hidden;
+    }
+  
+    #logo{
+        width: 30%;
+    }
+    #menu_shop{
+        visibility: hidden;
+    }
+
+    .title_sub{
+        width: 100%;
+   margin-top: 50%;
+   margin-left: 15%;
+    }
+    .y3_text{
+        padding-top: 70%;
+        padding-left: 10%;
+    }
+    .y4_text{
+        padding-top: 65%;
+        padding-left: 0%;
+    }
+
+}
+@media only screen and (max-width: 900px){
+    #menu_name{
+        visibility: hidden;
+    }
+  
+    #logo{
+        width: 30%;
+    }
+    #menu_shop{
+        visibility: hidden;
+    }
+
+    .title_sub{
+        width: 100%;
+   margin-top: 90%;
+   margin-left: 15%;
+    }
+    .y3_text{
+        padding-top: 110%;
+        padding-left: 10%;
+    }
+    .y4_text{
+        padding-top: 85%;
+        padding-left: 0%;
+        font-size: 10px;
+    }
+
+}

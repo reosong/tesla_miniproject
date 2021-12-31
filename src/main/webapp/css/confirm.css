@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.location{
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 40%;
+    height: 90vh;
+    border: 1px solid gray;
+}
+.title{
+    width: 100%;
+    height: 15%;
+  
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.size1{
+    width: 100%;
+    height: 15%;
+   
+    font-size: 30px;
+   
+    text-align: center;
+}
+.size2{
+    width: 100%;
+    height: 15%;
+ 
+    font-size: 30px;
+    text-align: center;
+}
+.button1{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: lightgray;
+    font-size: 20px;
+
+}
+.button2{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: lightpink;
+    font-size: 20px;
+    
+}

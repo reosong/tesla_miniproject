@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+a:link{text-decoration: none;color: black;}
+a:visited{text-decoration: none;color: black;}
+a:active{text-decoration: none;color: black;}
+a:hover{text-decoration: none;color: black;}
+
+
+@font-face {
+    src : url("./TESLA.ttf"); 
+    font-family: "te";
+}
+
+@font-face {
+    src : url("https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Book_Web.woff2"); 
+    font-family: "tess";
+}
+#menu{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+  
+   display: inline-block;
+
+}
+#logo{
+    width: 100%;
+    height: 50px;
+   font-family: 'te';
+   font-size: 20px;
+   float: left;
+   padding: 20px 0 0 20px;
+   display: inline-block;
+ 
+}
+
+.clear{
+    clear: both;
+}

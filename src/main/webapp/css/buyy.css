@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+a:link{text-decoration: none;color: black;}
+a:visited{text-decoration: none;color: black;}
+a:active{text-decoration: none;color: black;}
+a:hover{text-decoration: none;color: black;}
+
+
+@font-face {
+    src : url("./TESLA.ttf"); 
+    font-family: "te";
+}
+
+@font-face {
+    src : url("https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Book_Web.woff2"); 
+    font-family: "tess";
+}
+#menu{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+   
+
+}
+#logo{
+    width: 15%;
+    height: 50px;
+   font-family: 'te';
+   font-size: 20px;
+   float: left;
+   padding: 20px 0 0 20px;
+ 
+}
+
+.clear{
+    clear: both;
+}
+
+.session{
+    width: 65%;
+    height: 90vh;
+   margin-top: 4%;
+ position: fixed;
+}
+.side_session{
+   
+width: 20%;
+height: 100vh;
+
+float: right;
+display: inline-block;
+}
+.side_session2{
+   
+    width: 40%;
+    height: 100vh;
+    
+    float: right;
+    display: inline-block;
+    }
+.model{
+   width: 100%;
+   text-align: center;
+   font-size: 35px;
+   font-family: "tess";
+   margin-top: 50px;
+   font-weight: bold;
+}
+.model2{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-family: "tess";
+    margin-top: 50px;
+   
+ }
+.low{
+    width: 40%;
+    display: inline-block;
+    list-style: none;
+    margin-left: 5%;
+    text-align: center;
+}
+.butt{
+    width: 100%;
+    height: 35%;
+    margin-top: 20%;
+}
+.button1{
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+  
+}
+.button1{
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+    border: 2px solid blue;
+  
+ 
+}
+.bb{
+	width:900px
+}
+.clicked {
+    color: blue;
+  }
+  .button_size{
+      width: 30px;
+      height: 30px;
+  }
+  .button_size2{
+    width: 50px;
+    height: 50px;
+   
+}
+  .radius{
+      border-radius: 100px;
+      display: inline-block;
+
+      border: none;
+  }
+  .color_ul{
+    display: inline-block; margin-top: 15%; width: 100%;
+  }
+  .color_li{
+      display: inline-block;
+      list-style: none;
+      margin-left: 6%;
+     
+  }
+  .color_li2{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20%;
+   
+}
+  .bt{
+    border-radius: 100px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    
+
+  }
+
+  .color_ul2{
+    display: inline-block; margin-top: 15%; width: 100%;
+    text-align: center;
+  }
+
+  .color_li3{
+    display: inline-block;
+   
+    margin-left: 6%;
+    color: gray;
+   
+}
+.button2{
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 30px;
+    background-color: blue;
+    text-align: center;
+    color: white
+  
+}
+.button3{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    display: inline-block;
+background-color: white;
+font-size: 25px;
+font-weight: bold;
+}
+
+@media only screen and (max-width: 1300px){
+    #menu_name{
+        visibility: hidden;
+    }
+  
+    #logo{
+        width: 30%;
+    }
+    #menu_shop{
+        visibility: hidden;
+    }
+
+    .title_sub{
+        width: 100%;
+   margin-top: 35%;
+   margin-left: 20%;
+    }
+    .y3_text{
+        padding-top: 50%;
+        padding-left: 10%;
+    }
+    .y4_text{
+        padding-top: 45%;
+        padding-left: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 1100px){
+    #menu_name{
+        visibility: hidden;
+    }
+  
+    #logo{
+        width: 30%;
+    }
+    #menu_shop{
+        visibility: hidden;
+    }
+
+    .title_sub{
+        width: 100%;
+   margin-top: 50%;
+   margin-left: 15%;
+    }
+    .y3_text{
+        padding-top: 70%;
+        padding-left: 10%;
+    }
+    .y4_text{
+        padding-top: 65%;
+        padding-left: 0%;
+    }
+
+}
+@media only screen and (max-width: 900px){
+    #menu_name{
+        visibility: hidden;
+    }
+  
+    #logo{
+        width: 30%;
+    }
+    #menu_shop{
+        visibility: hidden;
+    }
+
+    .title_sub{
+        width: 100%;
+   margin-top: 90%;
+   margin-left: 15%;
+    }
+    .y3_text{
+        padding-top: 110%;
+        padding-left: 10%;
+    }
+    .y4_text{
+        padding-top: 85%;
+        padding-left: 0%;
+        font-size: 10px;
+    }
+
+}

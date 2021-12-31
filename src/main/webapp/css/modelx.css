@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+@font-face {
+    src : url("./TESLA.ttf"); 
+    font-family: "te";
+}
+
+@font-face {
+    src : url("https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Book_Web.woff2"); 
+    font-family: "tess";
+}
+#menu{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+   
+
+}
+#logo{
+    width: 15%;
+    height: 50px;
+   font-family: 'te';
+   font-size: 20px;
+   float: left;
+   padding: 20px 0 0 20px;
+ 
+}
+#menu_name{
+    margin-left: 150px;
+    width: 55%;
+    height: 60px;
+    float:left;
+    font-style:initial;
+    font-weight: 10px;
+    font-family: 'tess';
+   
+}
+#menu_name>ul{
+list-style: none;
+
+}
+#menu_name li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 25px;
+    
+}
+#menu_shop{
+    width:13%;
+    height: 50px;
+    float: right;
+  
+    
+}
+#menu_shop>ul{
+    list-style: none;
+   
+    }
+.menu_shop_li{
+        display: inline-block;
+        font-weight: bold;
+        padding-top: 20px;
+        margin-left: 20px;
+        font-size: 20px;
+       
+    }
+.clear{
+    clear: both;
+}
+#model_y1{
+    width: 100%;
+    height: 100vh;
+   background-image:url(../img/modelx_21.png) ;
+   background-size: 100% 100vh;
+   
+   
+}
+.title{
+    font-size: 50px;
+    padding-top: 10%;
+    padding-left: 43%;
+    font-weight: bold;
+    color: white;
+    font-family: 'tess';
+ }
+ .title_sub{
+     width: 100%;
+margin-top: 30%;
+margin-left: 15%;
+ }
+ .title_sub >ul{
+     display: inline-block;
+     margin-left: 5%;
+     
+}
+.title_sub li{
+    list-style: none;
+    color: white;
+   
+}
+.title_sub_font{
+    font-size: 30px;
+}
+.button_1{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+}
+#model_y2{
+    width: 100%;
+    height: 100vh;
+   background-color: black;
+}
+.y2_section1{
+    width: 40%;
+    height: 100%;
+    
+    float: left;
+    display: inline-block;
+    margin-left: 10%;
+
+}
+.y2_section2{
+    width: 40%;
+    height: 100%;
+    
+    float: left;
+    display: inline-block;
+
+}
+.img_33{
+    width: 100%;
+    height: 30vh;
+list-style: none;
+}
+.text_33{
+    width: 100%;
+    height: 30vh;
+    padding-top: 10%;
+    color: white;
+    list-style: none;
+}
+
+#video_model{
+    width: 100%;
+    height: 100vh;
+}
+#img2{
+    width: 70%;
+    height: 100vh;
+   
+    float: left;
+}
+#side_text{
+    width: 30%;
+    height: 100%;
+    padding-top: 30px;
+    float: right;
+    background-color: rgb(53, 50, 50);
+    
+}
+#model_y3{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../img/modelx_23.png) ;
+    background-size: 100% 70vh;
+    background-repeat: no-repeat;
+    
+}
+.y3_text{
+    padding-top: 35%;
+    padding-left: 10%;
+}
+.y_section1{
+    width: 30%;
+    height: 20vh;
+    float: left;
+    padding-top: 10%;
+    padding-left: 10%;
+
+}
+.y_section2{
+    width: 50%;
+    height: 20vh;
+    float: left;
+    padding-top: 10%;
+
+}
+.clear{
+    clear: both;
+}
+#a{
+    font-size: 25px;
+    padding-left: 10px;
+    color: rgb(85, 84, 84);
+    margin-top: 20px;
+}
+#b{
+    font-size: 35px;
+    padding-left: 10px;
+    color: rgb(111, 17, 26);
+    margin-top: 20px;
+}
+#c{
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#model_y4{
+    width: 100%;
+    height: 100vh;
+   background-image:url(../img/modelx_11.png) ;
+   background-size: 100% 70vh;
+   background-repeat: no-repeat;
+}
+.y4_text{
+    padding-top: 28%;
+    padding-left: 15%;
+}
+.y4_text2{
+    padding-top: 7%;
+}
+.y4_text >ul{
+    list-style: none;
+    display: inline-block;
+    margin-left: 5%;
+    color: white;
+    text-align: center;
+}
+#model_y5{
+    width: 100%;
+    height: 100vh;
+   background-image:url(../img/models_14.png) ;
+   background-size: 100% 70vh;
+   background-repeat: no-repeat;
+}
+
+  #video1 {max-width: 60%; height: 100%; display: block; float: left; }
+  #video2{width: 100%; height: 70%; display: block; float: left;}
+  #video3{width: 100%; height: 100%; display: block; float: left;}
+
+  .video_section1{
+    width: 30%;
+    height: 20vh;
+    float: left;
+    padding-top: 5%;
+    padding-left: 15%;
+
+}
+.video_section2{
+    width: 50%;
+    height: 20vh;
+    float: left;
+    padding-top: 5%;
+    padding-left: 10%;
+
+}
+
+
+
+  a:link{text-decoration: none;color: black;}
+  a:visited{text-decoration: none;color: black;}
+  a:active{text-decoration: none;color: black;}
+  a:hover{text-decoration: none;color: black;}
+
+  @media only screen and (max-width: 1300px){
+    #menu_name{
+        visibility: hidden;
+    }
+  
+    #logo{
+        width: 30%;
+    }
+    #menu_shop{
+        visibility: hidden;
+    }
+
+    .title_sub{
+        width: 100%;
+   margin-top: 35%;
+   margin-left: 20%;
+    }
+    .y3_text{
+        padding-top: 50%;
+        padding-left: 10%;
+    }
+    .y4_text{
+        padding-top: 45%;
+        padding-left: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 1100px){
+    #menu_name{
+        visibility: hidden;
+    }
+  
+    #logo{
+        width: 30%;
+    }
+    #menu_shop{
+        visibility: hidden;
+    }
+
+    .title_sub{
+        width: 100%;
+   margin-top: 50%;
+   margin-left: 15%;
+    }
+    .y3_text{
+        padding-top: 70%;
+        padding-left: 10%;
+    }
+    .y4_text{
+        padding-top: 65%;
+        padding-left: 0%;
+    }
+
+}
+@media only screen and (max-width: 900px){
+    #menu_name{
+        visibility: hidden;
+    }
+  
+    #logo{
+        width: 30%;
+    }
+    #menu_shop{
+        visibility: hidden;
+    }
+
+    .title_sub{
+        width: 100%;
+   margin-top: 90%;
+   margin-left: 15%;
+    }
+    .y3_text{
+        padding-top: 110%;
+        padding-left: 10%;
+    }
+    .y4_text{
+        padding-top: 85%;
+        padding-left: 0%;
+        font-size: 10px;
+    }
+
+}

@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+#div_login{
+margin-left: 30%;
+width: 500px;
+
+height: 1000px;
+background-color: black;
+}
+#div_login2{
+padding-top: 30px;
+padding-bottom: 20px;
+font-size: 30px;
+ border-bottom: 1px solid lightgray;
+ font-family: 'te';
+ color: white;
+}
+@font-face {
+src : url("../css/TESLA.ttf"); 
+font-family: "te";
+}
+#div_member{
+height: 40px;
+margin-top: 30px;
+font-size: 20px;
+border-bottom: 1px solid rgb(11, 11, 11);
+color: white;
+}
+#div_id{
+width: 500px;
+height: 60px;
+
+text-align: center;
+margin-top: 20px;
+}
+#div_password{
+width: 500px;
+height: 170px;
+color: white;
+
+text-align: center;
+margin-top: 20px;
+}
+#input_id{
+width: 400px;
+height: 50px;
+text-align: center;
+border-radius: 30px;
+
+}
+#input_password{
+width: 400px;
+height: 50px;
+text-align: center;
+margin-top: 10px;
+border-radius: 30px;
+
+}
+.ul_left{
+list-style: none;
+text-align: left;
+color: white;
+}
+
+.li_margin{
+margin-top: 10px;
+}
+#input_email{
+width: 400px;
+height: 50px;
+text-align: center;
+margin-top: 10px;
+border-radius: 30px;
+}
+
+
+#input_submit{
+width: 400px;
+height: 50px;
+text-align: center;
+margin-top: 10px;
+background-color: rgb(0, 110, 255);
+border-radius: 30px;
+}
+
+a:link{text-decoration: none;color: black;}
+a:visited{text-decoration: none;color: black;}
+a:active{text-decoration: none;color: black;}
+a:hover{text-decoration: none;color: black;}
+   

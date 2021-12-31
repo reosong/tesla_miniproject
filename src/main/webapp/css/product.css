@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#model_y{
+    width: 100%;
+    height: 700px;
+   background-image:url(../img/model_y.png) ;
+   background-size: 100% 700px;
+   
+   
+}
+@font-face {
+    src : url("./TESLA.ttf"); 
+    font-family: "te";
+}
+@font-face {
+    src : url("https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Book_Web.woff2"); 
+    font-family: "tess";
+}
+#menu{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+   
+
+}
+#logo{
+    width: 15%;
+    height: 50px;
+   font-family: 'te';
+   font-size: 20px;
+   float: left;
+   padding: 20px 0 0 20px;
+ 
+}
+#menu_name{
+    margin-left: 80px;
+    width: 50%;
+    height: 60px;
+    float:left;
+   
+}
+#menu_name>ul{
+list-style: none;
+
+}
+#menu_name li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    
+}
+#menu_shop{
+    width:20%;
+    height: 50px;
+    float: right;
+    
+}
+#menu_shop>ul{
+    list-style: none;
+   
+    }
+#menu_shop li{
+        display: inline-block;
+        font-weight: bold;
+        padding-top: 20px;
+        margin-left: 20px;
+        font-size: 20px;
+       
+    }
+.clear{
+    clear: both;
+}
