@@ -53,7 +53,7 @@
                    <% 
                    int a = data.getPage();
                    WriteDao writeDao= new WriteDao();
-                   ArrayList<Write> write = writeDao.show(a);
+                   ArrayList<Write> write = writeDao.showPage(a);
                    	for(int i =0; i<write.size();i++){
                    	
                    %>

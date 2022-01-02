@@ -13,7 +13,7 @@ public class UserDao {
 		try {
 		String url ="jdbc:mysql://localhost:3306/tesla";
 		String id ="root";
-		String pw ="1234";
+		String pw ="";
 		Class.forName("com.mysql.jdbc.Driver");
 		con = DriverManager.getConnection(url,id,pw);
 		}catch (Exception e) {

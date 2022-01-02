@@ -321,7 +321,38 @@ public class WriteDao {
 		return 0;
 	}
 	
-	
+	public ArrayList<Write> showPage(int num){
+		ArrayList<Write> array = new ArrayList<Write>();
+		try {
+			String sql = "select rownum,A.number,A.title,A.userID,A.date from (select number, title, userID, date from tesladata where ok = 1 order by number desc) A "
+					+ "where rownum between ? and ?";
+		PreparedStatement stmt = con.prepareStatement(sql);
+		
+		
+		int a = num*10;
+		
+		stmt.setInt(1, a-9);
+		stmt.setInt(2, a);
+		
+		rs = stmt.executeQuery();
+		
+		while(rs.next()) {
+			Write write = new Write();
+			write.setNumber(rs.getInt(2));
+			write.setTitle(rs.getString(3));
+			write.setUserID(rs.getString(4));
+			write.setDate(rs.getString(5));
+			array.add(write);
+			
+		}
+		return array;
+			
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+			
+		}return null;
+	}
 	
 	
 }

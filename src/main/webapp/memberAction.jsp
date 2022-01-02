@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
     <%@page import = "tesla.UserDao" %>
     <jsp:useBean id="user" class ="tesla.User" scope="page"/>
+    
     <jsp:setProperty property="userID" name="user"/>
     <jsp:setProperty property="userPassword" name="user"/>
     <jsp:setProperty property="userPasswordok" name="user"/>
