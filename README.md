@@ -1,2 +1,2 @@
 # tesla_miniproject
-로그인 게시판 주문하기 가능 
+테슬라 클론 페이지 JSP 
